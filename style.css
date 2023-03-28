@@ -1,3 +1,89 @@
 .centered-text::placeholder {
     text-align: center;
 }
+
+.centered-text {
+    text-align: center;
+}
+
+#github {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#title {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+#quadraticEq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    width: 18rem;
+    height: fit-content;
+}
+
+#formContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+form label {
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#resultContainer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: fit-content;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+}
+
+.left-bracket {
+    font-size: 10rem;
+    margin-right: 1rem;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.right-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    background-color: lightgray;
+}
+
+.right-container:nth-child(2) {
+    margin-bottom: 0;
+}

@@ -2,20 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-    <link rel="icon" href="src/favicon.png">
+  <link rel="icon" href="src/favicon.png">
   <link rel="stylesheet" href="style.css">
-  <title>Equation Calculator</title>
+  <title>Quadratic Equations</title>
 </head>
 <body>
-  <div id="title">Equation Calculator</div><br>
+  <a href="https://github.com/teo-101/Equation-Calculator" target="_blank" id="github">Github</a>
 
-  <form id="equation-form">
-    <label>Enter the coeffcients of ax^2 + bx +c = 0:</label><br><br>
-    <input type="text" id="equation-input" placeholder="a, b, c" class="centered-text">
-    <input type="submit" value="Submit">
-  </form><br>
+  <div id="title">Quadratic Equation Calculator</div><br><br>
+
+  <img  id="quadraticEq" src="https://latex.codecogs.com/svg.image?\inline&space;\huge&space;x_{1,2}=\frac{-b\pm&space;\sqrt{b^{2}-4ac}}{2a}" title="https://latex.codecogs.com/svg.image?\inline \huge x_{1,2}=\frac{-b\pm \sqrt{b^{2}-4ac}}{2a}" />
+
+  <div id="formContainer">
+    <form id="equation-form">
+      <label>Enter the coeffcients of ax<sup>2</sup> + bx +c = 0:</label><br><br>
+      <input type="text" id="equation-input" placeholder="a, b, c" class="centered-text">
+      <input type="submit" value="Submit">
+    </form><br>
+  </div><br>
+
+  <div class="container">
+    <div class="left-bracket">&#x007B;</div>
+    <div class="right-container">
+      <div id="result1"></div>
+      <div id="result2"></div>
+    </div>
+  </div>
   <script src="script.js"></script>
-
-  <a href="https://github.com/teo-101/Equation-Calculator" target="_blank">Github</a>
 </body>
 </html>

@@ -19,18 +19,18 @@ form.addEventListener('submit', (event) => {
         x1 = (-b + Math.sqrt(b*b - 4*a*c))/(2*a);
         x2 = (-b - Math.sqrt(b*b - 4*a*c))/(2*a);
 
-        console.log(`The only real values for the equation ${a}x^2 + ${b}x + ${c} = 0 are:`);
-        console.log(`x1 = ${x1}`);
-        console.log(`x2 = ${x2}`);
+        document.getElementById('result1').innerHTML = (`x1 = ${x1}`);
+        document.getElementById('result2').innerHTML = (`x2 = ${x2}`);
     }
     else if (delta == 0) {
         let x1 = undefined;
-        let x2 = undefined;
-        
-        console.log(`The only real value for the equation ${a}x^2 + ${b}x + ${c} = 0 is:`);
-        console.log(`x1 = x2 = ${x1}`);
+        x1 = (-b + Math.sqrt(b*b - 4*a*c))/(2*a);
+
+        document.getElementById('result1').innerHTML = (`x1 = ${x1}`);
+        document.getElementById('result2').innerHTML = (`x2 = x1`);
     }
     else if (delta < 0) {
-        console.log(`No real values for the equation ${a}x^2 + ${b}x + ${c} = 0`);
+        document.getElementById('result1').innerHTML = (`&#8709;, &#8704;x&euro;R`);
+        document.getElementById('result2').innerHTML = (`&#8709; &#8704;x&euro;R`);
     }
 });
