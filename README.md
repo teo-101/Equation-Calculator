@@ -22,7 +22,7 @@ Where a, b and c are the coefficients for the equation and follow these rules:<b
 ### Delta &#916; < 0:
 &emsp; If &#916; is negativ ( &#916; < 0 ) => zero real roots ( &#8709; ).
 
-## &bullet; The formula for calculating real roots:
-<img src="src\download.svg">
+## &bullet; The formula for calculating real roots:<br>
+<center><img src="src\download.svg"></center>
 
 
