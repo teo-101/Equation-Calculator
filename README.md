@@ -23,6 +23,6 @@ Where a, b and c are the coefficients for the equation and follow these rules:<b
 &emsp; If &#916; is negativ ( &#916; < 0 ) => zero real roots ( &#8709; ).
 
 ## &bullet; The formula for calculating real roots:
-<center> $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$ </center>
+<img src="https://latex.codecogs.com/svg.image?x_{1,2}=\frac{-b\pm&space;\sqrt{b^{2}-4ac}}{2a}" title="https://latex.codecogs.com/svg.image?x_{1,2}=\frac{-b\pm \sqrt{b^{2}-4ac}}{2a}" />
 
 
