@@ -1,7 +1,7 @@
 # Equation Calculator
 
 ## &bullet; Description:
-&emsp; A 1st and 2nd degree equation solver made using JavaScript.
+&emsp; A 2nd degree equation ( quadratic ) solver made using JavaScript.
 
 ## &bullet; What is a Second Degree Equation:
 &emsp; A second degree equation is a mathematical phrase with a variable that is raised to the power of 2. Unlike a 1st degree equation, x will have two real values ( **R** ). The general form for a 2nd degree equation is:<br>
